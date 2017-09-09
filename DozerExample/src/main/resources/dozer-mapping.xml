@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+	http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>jp.co.sisolution.example2.SourceBean</class-a>
+		<class-b>jp.co.sisolution.example2.DestinationBean</class-b>
+		<field>
+			<a>productPrice</a>
+			<b>price</b>
+		</field>
+		<field>
+			<a date-format="yyyy-MM-dd">productionDate</a>
+			<b>date</b>
+		</field>
+	</mapping>
+</mappings>
